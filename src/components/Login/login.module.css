@@ -1,0 +1,49 @@
+.login_title {
+   padding: 15px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.form {
+   width: 150px;
+   text-align: left;
+   margin: 0 auto;
+}
+
+.form_error {
+   border: 2px solid red;
+   padding: 5px;
+   margin-bottom: 5px;
+   font-size: 14px;
+}
+
+.log {
+   margin-bottom: 10px;
+}
+
+.pass {
+   margin-bottom: 10px;
+}
+
+.check {
+   margin-bottom: 10px;
+}
+
+.check input {
+   margin: 0;
+   margin-right: 5px;
+   vertical-align: middle;
+}
+
+.check label {
+   font-weight: normal;
+}
+
+.captcha img {
+   margin-left: -35px;
+}
+
+.btn {
+   margin-top: 20px;
+   text-align: center;
+}

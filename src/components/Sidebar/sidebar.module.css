@@ -1,0 +1,41 @@
+.nav {
+  grid-area: n;
+  background-color: rgb(146, 196, 253);
+  padding: 20px 0px 20px 20px;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item a {
+  text-decoration: none;
+  color: #000;
+}
+
+a.active {
+  font-weight: 700;
+}
+
+.friends {
+  margin-top: 5px;
+  margin-left: -8px;
+}
+
+.friend {
+  display: inline-block;
+  width: 45px;
+  text-align: center;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.friend:last-child {
+  margin-right: 0px;
+}
+
+.friend img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

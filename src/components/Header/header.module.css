@@ -1,0 +1,31 @@
+.header_container {
+   grid-area: h;
+   background-color: rgb(96, 134, 204);
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header img {
+   width: 50px;
+   height: 50px;
+   margin: 5px 0px 0px 15px;
+
+}
+
+.login a {
+   color: #fff;
+   text-decoration: none;
+   margin: 0px 15px 0px 0px;
+}
+
+.log {
+   color: #fff;
+}
+
+.log button{
+   margin: 0px 15px 0px 15px;
+}

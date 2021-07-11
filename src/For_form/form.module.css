@@ -1,0 +1,16 @@
+.form_control {
+   display: inline-block;
+}
+
+.form_control.error textarea,
+.form_control.error input {
+   border: 2px solid red;
+}
+
+.form_control textarea {
+   padding: 5px;
+}
+
+.form_control.error span {
+   color: red;
+}

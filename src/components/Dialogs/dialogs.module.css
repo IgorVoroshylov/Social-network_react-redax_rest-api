@@ -1,0 +1,78 @@
+* {
+   box-sizing: border-box;
+}
+
+.dialogs {
+   display: grid;
+   grid-template-columns: 2fr 10fr;
+   padding: 20px 20px 20px 20px;
+   height: 100%;
+}
+
+.dialogs_item {
+   border-right: 1px solid #000;
+}
+
+.messagesBlock {
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   height: calc(100vh - 100px);
+   padding: 20px 20px 0px 20px;
+}
+
+/* dialogPerson */
+
+.dialog {
+   margin-bottom: 15px;
+}
+
+.dialog img {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 15px;
+   vertical-align: middle;
+}
+
+.dialog a{
+   text-decoration: none;
+   color: #000;
+}
+
+.active {
+   font-weight: 700;
+}
+
+/* message */
+
+.messages_list {
+   overflow-y: scroll;
+   word-wrap: break-word;
+}
+
+.message {
+   margin-bottom: 15px;
+}
+
+/* form */
+
+.textarea_button {
+   margin-top: auto;
+   padding-top: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.textarea_button textarea {
+   vertical-align: middle;
+   resize: none;
+   height: 50px;
+   width: 500px;
+   padding: 5px;
+}
+
+.textarea_button button {
+   height: 50px;
+   width: 100px;
+}
