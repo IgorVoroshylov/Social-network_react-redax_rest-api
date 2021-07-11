@@ -19,8 +19,3 @@ import { BrowserRouter } from 'react-router-dom'
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
-
-//! for github
-// git remote add origin https://github.com/IgorVoroshylov/raect-redax-network.git
